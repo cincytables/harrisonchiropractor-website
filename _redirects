@@ -4,7 +4,10 @@
 /new-page-1/ /pillowise 301
 /read-me /essential-oils 301
 /read-me/ /essential-oils 301
-/news /blog 301
-/news/ /blog 301
+/news / 301
+/news/ / 301
+/blog / 301
+/blog/ / 301
+/blog.html / 301
 /our-philosophy /philosophy 301
 /our-philosophy/ /philosophy 301
