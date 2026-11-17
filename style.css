@@ -189,6 +189,10 @@ h1 em, h2 em { color: var(--coral); font-weight: 400; }
 .footer-grid p { color: rgba(251,248,241,.78); font-size: 13px; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,.18); color: rgba(251,248,241,.65); font-size: 12px; }
 .footer-bottom a { color: white; text-decoration: none; font-weight: 700; }
+.footer-social { margin-bottom: 24px; }
+.footer-facebook { display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px 10px 12px; border-radius: 8px; background: var(--cream); color: var(--teal-deep); font-size: 17px; font-weight: 700; line-height: 1.25; text-decoration: none; }
+.footer-facebook svg { flex: none; padding: 4px; border-radius: 50%; background: var(--teal-deep); color: var(--cream); }
+.footer-facebook:hover, .footer-facebook:focus-visible { text-decoration: underline; }
 @media(max-width:920px) {
   .header-inner { gap: 18px; }
   .nav { gap: 13px; }
