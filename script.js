@@ -1,1 +1,11 @@
-YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éí×}¢Ö¥¢ëiºÙbë5cmvöÚ$z{-®éÜj×Ð
+const toggle = document.querySelector(".nav-toggle");
+const nav = document.querySelector("#site-nav");
+
+if (toggle && nav) {
+  toggle.addEventListener("click", () => {
+    const open = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", String(!open));
+    toggle.textContent = open ? "Menu" : "Close";
+    nav.classList.toggle("open", !open);
+  });
+}
